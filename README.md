@@ -6,10 +6,12 @@ Welcome to my Machine Learning Projects repository! I'm Faridat, a data enthusia
 
 🔍 Projects Overview:
 
-Naive Bayes:
+## Naive Bayes:
 The Breast Cancer Wisconsin Dataset from the UCI machine learning respository is a study of classification of 568 patients that are labelled as either (M) Malignant of (B)Benign based on 30 attributes/features computed from a digitized image of a fine needle aspirate of a breast mass. The Naive Bayes Classifier is a supervised learning algorithm that will be used to classify & test the performance of this model. 70% of the data will be reserved for training and the remaining 30% will be used for testing. For model evaluation a Confusion Matrix was created to determine models sensitivity and specifity. Overall model accuracy was 95.3% - model performed exceptoinally well at classifying which patients were Malignant or Benign.
 
-K-Nearest Neighbors (KNN):
+## K-Nearest Neighbors (KNN):
+The Wine Dataset from the UCI machine learning respository consists of the results of a chemical analysis of wines grown within the same region in Italy but derived from three different cultivers. The analysis determined 13 constituents (attributes) found in the three types of wine. The K-Nearest Neighbors Classifier is a supervised learning algorithm that will be used to classify and test the perfomance of this model. 80% of the data will be reserved for training and the remaining 20% will be used for testing. Features were standardized/scaled in order to prevent the dominance of one feature over another as well as providing all features with a consistent scale. This model evalution differs from a normal binary classification becasue instead of two classes we are now working with three. This required some adjustments to the Confusion Matrix calculation. Random state was also taken into consideration. Overall model accuracy with a random state of 42 was 94.4% but as noted on code when a random state of 73 was used model accuaracy improved to 100%.
+
 [Brief description of the KNN project, any specific problem tackled, and results achieved.]
 Random Forest:
 [Highlight the Random Forest project, showcasing how it was utilized and its impact on predictive accuracy.]
@@ -19,7 +21,7 @@ Decision Trees:
 
 Python: Leveraging the power of Pandas, NumPy, and Scikit-Learn.
 Jupyter Notebooks: Transparent and interactive documentation of the entire workflow.
-Sublime: 
+Sublime Text: 
 📈 Results:
 
 [Include any performance metrics, accuracy scores, or visualizations that showcase the success of your projects.]
