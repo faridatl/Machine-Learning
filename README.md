@@ -13,10 +13,14 @@ The Breast Cancer Wisconsin Dataset from the UCI machine learning respository is
 The Wine Dataset from the UCI machine learning respository consists of the results of a chemical analysis of wines grown within the same region in Italy but derived from three different cultivers. The analysis determined 13 constituents (attributes) found in the three types of wine. The K-Nearest Neighbors Classifier is a supervised learning algorithm that will be used to classify and test the perfomance of this model. 80% of the data will be reserved for training and the remaining 20% will be used for testing. Features were standardized/scaled in order to prevent the dominance of one feature over another as well as providing all features with a consistent scale. This model evalution differs from a normal binary classification becasue instead of two classes we are now working with three. This required some adjustments to the Confusion Matrix calculation. Random state was also taken into consideration. Overall model accuracy with a random state of 42 was 94.4% but as noted on code when a random state of 73 was used model accuaracy improved to 100%.
 
 ## Decision Tree & Random Forest:
+The Ionosphere Dataset from the UCI machine learning respository consists of a phased array of 16 high-frequency antennas with a total transmitted power on the order of 6.4 kilowatts. Received signals were processed using an autocorrelation function whose arguments are the time of a pulse and the pulse number. There were 17 pulse numbers for the system. Instances in this database are described by 2 attributes per pulse number, corresponding to the complex values returned by the function resulting from the complex electromagnetic signal. "Good" (g) radar returns are those showing evidence of some type of structure in the ionosphere. "Bad" (b) returns are those that do not; their signals pass through the ionosphere. This will be a binary classificstion.
+
+Both the Decition Tree and Random Forest Classifier willl be employed to evaluate the classification performance. Both classifiers will be compared to determine which performed the best by recording the results of their Confusion matrix, sensitivity, specifity, total accuracy, F1-score, ROC and AUC scores. 5-Fold cross validation will also be employed to determine if the both models better.
 
 [Highlight the Random Forest project, showcasing how it was utilized and its impact on predictive accuracy.]
 Decision Trees:
 [Provide insights into the Decision Trees project, discussing the context and any interesting findings.]
+
 🛠️ Technologies Used:
 
 Python: Leveraging the power of Pandas, NumPy, and Scikit-Learn.
