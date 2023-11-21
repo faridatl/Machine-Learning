@@ -21,6 +21,9 @@ Both the Decition Tree and Random Forest Classifier willl be employed to evaluat
 Decision Trees:
 [Provide insights into the Decision Trees project, discussing the context and any interesting findings.]
 
+## Linear Discriminant Analysis(LDA) & Quadratic Discriminant Analysis(QDA):
+The Iris Species dataset includes three types of iris species with 50 samples each as well as some properties about each flower. Therer are 4 features/attributes and three classes. A 5-Fold cross-validation to evaluate the classification performance of a Linear Discriminant Analysis and Quadratic Discriminant Analysis classifier will be carried out. The best classifier will be determined based on model performance as well as taking into account each classifiers Confusion Matrix, sensitivity, specificity, total accuracy, F1-score, ROC & AUC curve, and overall model performance.
+
 🛠️ Technologies Used:
 
 Python: Leveraging the power of Pandas, NumPy, and Scikit-Learn.
