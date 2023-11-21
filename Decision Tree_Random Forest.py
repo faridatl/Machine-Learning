@@ -13,7 +13,7 @@
 # type of structure in the ionosphere. "Bad" (b) returns are those that do not; 
 # their signals pass through the ionosphere.
 
-# Both the Decition Tree and Random Forest Classifier willl be employed to
+# Both the Decision Tree and Random Forest Classifier willl be employed to
 # evaluate the classification performance. Both classifiers will be compared to 
 # determine which performed the best by recording the results of their Confusi-
 # on matrix, sensitivity, specifity, total accuracy, F1-score, ROC and AUC scores.
