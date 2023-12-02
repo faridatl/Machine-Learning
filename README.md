@@ -14,7 +14,13 @@ Sublime Text: Efficient, versatile code editor with minimalist interface.
 
 ## 📈 Results:
 
-The Naive Bayes classifier demonstrated strong performance when applied to the UCI machine learning breast cancer data. With a true positive value of 111, a false positive value of 1, true negative value of 52, and a false negative value of 7, the classifier exhibited a high sensitivity of 94.06% and specificity of 98.11%. With a sensitivity rate of 94.06%, the Naive Bayes classifier demonstrates a high ability to correctly identify true positive cases, i.e. patients who have been classified as having malignant tumors. A high sensitivity rate is desirable as it indicates a low rate of false negatives, emphasizing the classifier's effectiveness in capturing positive instances. The specificity rate of 98.11% indicates that the Naive Bayes classifier is highly proficient at correctly identifying true negative cases. i.e. patients who have benign tunors. A high specificity rate implies a low rate of false positives, underlining the classifier's precision in identifying negative instances. The overall model accuracy, which is calculated at 95.32%, suggests that the Naive Bayes classifier performs exceptionally well on the breast cancer dataset. This additionally suggests the effectiveness of the Naive Bayes classifier in differentiating between malignant and benign cases.
+* The Naive Bayes classifier demonstrated strong performance when applied to the UCI machine learning breast cancer data. With a true positive value of 111, a false positive value of 1, true negative value of 52, and a false negative value of 7, the classifier exhibited a high sensitivity of 94.06% as well as a high specificity of 98.11%. 
+
+* With a sensitivity rate of 94.06%, the Naive Bayes classifier demonstrates a high ability to correctly identify true positive cases, i.e. patients who have been classified as having malignant tumors. A high sensitivity rate is desirable as it indicates a low rate of false negatives, emphasizing the classifier's effectiveness in capturing positive instances. 
+
+* The specificity rate of 98.11% indicates that the Naive Bayes classifier is highly proficient at correctly identifying true negative cases. i.e. patients who have benign tunors. A high specificity rate implies a low rate of false positives, underlining the classifier's precision in identifying negative instances. 
+
+* The overall model accuracy, which is calculated at 95.32%, suggests that the Naive Bayes classifier performs exceptionally well on the breast cancer dataset. This additionally suggests the effectiveness of the Naive Bayes classifier in differentiating between malignant and benign cases.
 
 
 ## 🔗 How to Use:
