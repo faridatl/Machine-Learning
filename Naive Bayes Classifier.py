@@ -25,7 +25,7 @@ from sklearn.metrics import confusion_matrix # compute confusion matrix for naiv
 """
 Dataset: read in csv and become familiar with dataset 
 """
-wdbc = pd.read_csv("/Users/faridatlawal/DTSC710/wdbc2.csv", header=None) # read in dataset from file on computer and save to a variable name for access in python
+wdbc = pd.read_csv("/Users/faridatl/Downloads/wdbc2.csv", header=None) # read in dataset from file on computer and save to a variable name for access in python
 wdbc.head() # returns first 5 entries of dataset
 wdbc.tail() # returns last 5 entries of dataset
 wdbc.shape # returns dimensions of dataset i.e number of rows and columns present
